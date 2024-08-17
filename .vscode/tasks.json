@@ -42,6 +42,26 @@
             ],
             "group": "build",
             "detail": "compiler: /opt/homebrew/bin/clang++"
+        },
+        {
+            "type": "cppbuild",
+            "label": "First Cpp Project: clang++ build",
+            "command": "clang++",
+            "args": [
+                "-g",
+                "-std=c++20",
+                "${workspaceFolder}/FirstCppProject/*.cpp",
+                "-o",
+                "${workspaceFolder}/FirstCppProject/rooster"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "compiler: /opt/homebrew/bin/clang++"
         }
     ]
 }
