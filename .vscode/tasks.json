@@ -62,6 +62,26 @@
             ],
             "group": "build",
             "detail": "compiler: /opt/homebrew/bin/clang++"
+        },
+        {
+            "type": "cppbuild",
+            "label": "Number System Project: clang++ build",
+            "command": "clang++",
+            "args": [
+                "-g",
+                "-std=c++20",
+                "${workspaceFolder}/NumberSystem/*.cpp",
+                "-o",
+                "${workspaceFolder}/NumberSystem/rooster"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "compiler: /opt/homebrew/bin/clang++"
         }
     ]
 }
