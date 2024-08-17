@@ -10,9 +10,9 @@
             "args": [
                 "-g",
                 "-std=c++20",
-                "${workspaceFolder}/template-project/*.cpp",
+                "${workspaceFolder}/TemplateProject/*.cpp",
                 "-o",
-                "${workspaceFolder}/template-project/rooster"
+                "${workspaceFolder}/TemplateProject/rooster"
             ],
             "options": {
                 "cwd": "${fileDirname}"
@@ -30,9 +30,9 @@
             "args": [
                 "-g",
                 "-std=c++20",
-                "${workspaceFolder}/template-project/*.cpp",
+                "${workspaceFolder}/TemplateProject/*.cpp",
                 "-o",
-                "${workspaceFolder}/template-project/rooster"
+                "${workspaceFolder}/TemplateProject/rooster"
             ],
             "options": {
                 "cwd": "${fileDirname}"
