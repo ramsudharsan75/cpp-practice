@@ -102,6 +102,26 @@
             ],
             "group": "build",
             "detail": "compiler: /opt/homebrew/bin/clang++"
+        },
+        {
+            "type": "cppbuild",
+            "label": "Basic Operation Project: clang++ build",
+            "command": "clang++",
+            "args": [
+                "-g",
+                "-std=c++20",
+                "${workspaceFolder}/BasicOperation/*.cpp",
+                "-o",
+                "${workspaceFolder}/BasicOperation/rooster"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "compiler: /opt/homebrew/bin/clang++"
         }
     ]
 }
