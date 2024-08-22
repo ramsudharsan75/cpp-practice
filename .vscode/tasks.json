@@ -135,6 +135,44 @@
                 "$gcc"
             ],
             "group": "build",
+        },
+        {
+            "type": "cppbuild",
+            "label": "Limit Project: clang build",
+            "command": "clang++-15",
+            "args": [
+                "-g",
+                "-std=c++20",
+                "${workspaceFolder}/Limit/*.cpp",
+                "-o",
+                "${workspaceFolder}/Limit/rooster"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+        },
+        {
+            "type": "cppbuild",
+            "label": "Math Project: clang build",
+            "command": "clang++-15",
+            "args": [
+                "-g",
+                "-std=c++20",
+                "${workspaceFolder}/Math/*.cpp",
+                "-o",
+                "${workspaceFolder}/Math/rooster"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
         }
     ]
 }
