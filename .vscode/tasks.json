@@ -116,6 +116,25 @@
                 "$gcc"
             ],
             "group": "build",
+        },
+        {
+            "type": "cppbuild",
+            "label": "Output Formatting Project: clang build",
+            "command": "clang-15",
+            "args": [
+                "-g",
+                "-std=c++20",
+                "${workspaceFolder}/OutputFormatting/*.cpp",
+                "-o",
+                "${workspaceFolder}/OutputFormatting/rooster"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
         }
     ]
 }
