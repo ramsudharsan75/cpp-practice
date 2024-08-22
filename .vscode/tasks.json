@@ -120,7 +120,7 @@
         {
             "type": "cppbuild",
             "label": "Output Formatting Project: clang build",
-            "command": "clang-15",
+            "command": "clang++-15",
             "args": [
                 "-g",
                 "-std=c++20",
