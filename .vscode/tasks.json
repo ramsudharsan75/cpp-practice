@@ -5,8 +5,8 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "Template Project: g++ build",
-            "command": "g++-14",
+            "label": "Template Project: gcc build",
+            "command": "gcc-14",
             "args": [
                 "-g",
                 "-std=c++20",
@@ -21,12 +21,11 @@
                 "$gcc"
             ],
             "group": "build",
-            "detail": "compiler: /opt/homebrew/bin/g++"
         },
         {
             "type": "cppbuild",
-            "label": "Template Project: clang++ build",
-            "command": "clang++",
+            "label": "Template Project: clang build",
+            "command": "clang-15",
             "args": [
                 "-g",
                 "-std=c++20",
@@ -41,12 +40,11 @@
                 "$gcc"
             ],
             "group": "build",
-            "detail": "compiler: /opt/homebrew/bin/clang++"
         },
         {
             "type": "cppbuild",
-            "label": "First Cpp Project: clang++ build",
-            "command": "clang++",
+            "label": "First Cpp Project: clang build",
+            "command": "clang-15",
             "args": [
                 "-g",
                 "-std=c++20",
@@ -61,12 +59,11 @@
                 "$gcc"
             ],
             "group": "build",
-            "detail": "compiler: /opt/homebrew/bin/clang++"
         },
         {
             "type": "cppbuild",
-            "label": "Number System Project: clang++ build",
-            "command": "clang++",
+            "label": "Number System Project: clang build",
+            "command": "clang-15",
             "args": [
                 "-g",
                 "-std=c++20",
@@ -81,12 +78,11 @@
                 "$gcc"
             ],
             "group": "build",
-            "detail": "compiler: /opt/homebrew/bin/clang++"
         },
         {
             "type": "cppbuild",
-            "label": "Data Type Project: clang++ build",
-            "command": "clang++",
+            "label": "Data Type Project: clang build",
+            "command": "clang-15",
             "args": [
                 "-g",
                 "-std=c++20",
@@ -101,12 +97,11 @@
                 "$gcc"
             ],
             "group": "build",
-            "detail": "compiler: /opt/homebrew/bin/clang++"
         },
         {
             "type": "cppbuild",
-            "label": "Basic Operation Project: clang++ build",
-            "command": "clang++",
+            "label": "Basic Operation Project: clang build",
+            "command": "clang-15-15",
             "args": [
                 "-g",
                 "-std=c++20",
@@ -121,7 +116,6 @@
                 "$gcc"
             ],
             "group": "build",
-            "detail": "compiler: /opt/homebrew/bin/clang++"
         }
     ]
 }

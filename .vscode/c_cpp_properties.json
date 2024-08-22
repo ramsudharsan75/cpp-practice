@@ -5,13 +5,20 @@
             "includePath": [
                 "${workspaceFolder}/**"
             ],
-            "defines": [],
             "macFrameworkPath": [
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
             ],
-            "intelliSenseMode": "macos-clang-arm64",
             "cppStandard": "c++23",
             "compilerPath": "/opt/homebrew/bin/clang++"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "compilerPath": "/usr/bin/clang-15",
+            "cppStandard": "c++23",
+            "mergeConfigurations": false
         }
     ],
     "version": 4
