@@ -1,7 +1,7 @@
 #include <cmath>
 #include <iostream>
 
-int main() {
+int main1() {
     double weight{7.5};
 
     // floor
@@ -37,8 +37,8 @@ int main() {
 
     short int a{1};
     short int b{2};
-    auto res{
-        a + b}; // auto type conversion to int instead of short int as short (2 byte) doesn't allow arithmetic operation
+    auto res{a + b}; // auto type conversion to int instead of short int as short (2 byte) doesn't allow arithmetic
+                     // operation and similar thing will happen with char data type
     std::cout << sizeof(res) << std::endl;
 
     return 0;
