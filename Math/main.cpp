@@ -28,12 +28,18 @@ int main() {
 
     // pow
     std::cout << "pow(" << weight << ", 2) = " << std::pow(weight, 2) << std::endl;
-    
+
     // round
     std::cout << "round(" << 2.5 << ") = " << std::round(2.5) << std::endl;
     std::cout << "round(" << 7.5 << ") = " << std::round(7.5) << std::endl;
     std::cout << "round(" << 2.25 << ") = " << std::round(2.25) << std::endl;
     std::cout << "round(" << 2.75 << ") = " << std::round(2.75) << std::endl;
+
+    short int a{1};
+    short int b{2};
+    auto res{
+        a + b}; // auto type conversion to int instead of short int as short (2 byte) doesn't allow arithmetic operation
+    std::cout << sizeof(res) << std::endl;
 
     return 0;
 }

@@ -1,17 +1,6 @@
 {
     "configurations": [
         {
-            "name": "Mac",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
-            "macFrameworkPath": [
-                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
-            ],
-            "cppStandard": "c++23",
-            "compilerPath": "/opt/homebrew/bin/clang++"
-        },
-        {
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**"
